@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body {
+    font-family: "Source Serif 4", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 47, 47);
+}
+
+header {
+    font-family: "Source Serif 4", serif;
+    background: #6bade2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery, .video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+figure {
+    margin: 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+video {
+    max-width: 100%;
+}
+
+video iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #d3bbbb;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
